@@ -15,7 +15,7 @@
 @property (nonatomic) sqlite3 *DB;
 @property (weak, nonatomic) IBOutlet UITextField *name;
 @property (weak, nonatomic) IBOutlet UITextField *address;
-@property (weak, nonatomic) IBOutlet UITextField *phone;
+@property (weak, nonatomic) IBOutlet UITextField *phone; 
 
 - (IBAction)save:(id)sender;
 - (IBAction)find:(id)sender;
